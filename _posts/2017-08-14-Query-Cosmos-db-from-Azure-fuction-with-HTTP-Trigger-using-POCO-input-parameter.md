@@ -1,6 +1,6 @@
 
 
-I had some trouble to implement a simple HTTP GET method in azure functions. It was quite a struggle so let me explain how I got it to work eventually. I wanted the route to look like `HTTP GET /message/{messageid}`. My code compiled just fine, and Log.Info statements worked also. The query result was `null` though. The function returns HTTP 404 which seems right in this case._
+_I had some trouble to implement a simple HTTP GET method in azure functions. It was quite a struggle so let me explain how I got it to work eventually. I wanted the route to look like `HTTP GET /message/{messageid}`. My code compiled just fine, and Log.Info statements worked also. The query result was `null` though. The function returns HTTP 404 which seems right in this case._
 
 You can find some usefule resources for  [Azure Functions Cosmos DB bindings](https://t.co/xorlB0uIhF) and [Store unstructured data using Azure Functions and Cosmos DB](https://t.co/1KpbJIBMFx), but they do not really explain how the parameters from the HTTP trigger get passed into the Cosmos db input binding to query your documentCollection. This resource  on [stackoverflow](https://stackoverflow.com/questions/42829465/accessing-documentdb-from-azure-functions-with-dynamic-documentid) set me on the right track, but still it took me some time to get all the bits and pieces right. 
 
