@@ -11,16 +11,16 @@ title                    : "Geograppy blog"
 title_separator          : "-"
 name                     : "Geograppy"
 description              : "Tech blog"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://geograppy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "geograppy/geograppy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : geograppy
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :Geograppy
+  username               : Geograppy
 facebook:
   username               :
   app_id                 :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : geograppy
   gitlab           :
   google_plus      :
   keybase          :
@@ -234,7 +234,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  _posts
   - scope:
       path: ""
       type: posts
