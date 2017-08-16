@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Ben Savelkoul"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Featured.png"
   bio              : "Father. Husband. Full stack developer. Most important occupation: Learning"
   location         : "Belgium"
   email            :
