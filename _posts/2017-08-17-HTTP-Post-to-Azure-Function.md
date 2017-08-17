@@ -22,10 +22,10 @@ My function.json:
     {
       "type": "documentDB",
       "name": "$return",
-      "databaseName": "geograppy",
+      "databaseName": "XXX",
       "collectionName": "messageCollection",
       "createIfNotExists": true,
-      "connection": "geograppy_DOCUMENTDB",
+      "connection": "XXX_DOCUMENTDB",
       "direction": "out"
     }
   ],
