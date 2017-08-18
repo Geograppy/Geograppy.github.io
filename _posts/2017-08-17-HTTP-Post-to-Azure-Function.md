@@ -2,7 +2,7 @@
 
 _In this post I am going to explain how to do a post to [Azure Cosmos Db](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction). The tutorials I came across with all started from the auto-generated code in the [azure functions](https://azure.microsoft.com/en-us/services/functions/) portal, and would allow to pass in data through query parameters. I do not really like to pass data through query params because I want the route to look like HTTP POST /message. Here I will show my working example to post a document to Cosmos Db using only data from the request body._
 
-I expect you are already have some basic knowledge of Azure Functions and Cosmos Db, so I will not include the steps for adding a [Cosmos DB output binding](https://t.co/xorlB0uIhF) here. I will only elaborate on the `function.json` file and the `run.csx` file.
+I expect you already have some basic knowledge of Azure Functions and Cosmos Db, so I will not include the steps for adding a [Cosmos DB output binding](https://t.co/xorlB0uIhF) here. I will only elaborate on the `function.json` file and the `run.csx` file.
 
 
 My function.json:
